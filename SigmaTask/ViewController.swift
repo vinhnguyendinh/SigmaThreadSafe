@@ -44,6 +44,8 @@ class ViewController: UIViewController {
     // MARK: - Config
     func initialData() {
         self.setupLocation()
+        
+        // Enable monitoring battery
         UIDevice.current.isBatteryMonitoringEnabled = true
     }
     
